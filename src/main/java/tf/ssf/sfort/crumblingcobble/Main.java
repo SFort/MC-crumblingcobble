@@ -41,7 +41,8 @@ public class Main implements ModInitializer {
 			if (f == -1.0F) {
 				return 0.0F;
 			} else {
-				int i = player.getMainHandStack().isSuitableFor(sup.getDefaultState()) ? 30 : 100;
+				state = sup.getDefaultState();
+				int i = player.getMainHandStack().isSuitableFor(state) ? 30 : 100;
 				return player.getBlockBreakingSpeed(state) / f / (float)i;
 			}
 		}
