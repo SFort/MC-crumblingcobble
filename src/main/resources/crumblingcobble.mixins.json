@@ -1,0 +1,14 @@
+
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tf.ssf.sfort.crumblingcobble.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinFluid",
+    "MixinLavaFluid"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "crumblingcobble",
+  "version": "${version}",
+
+  "name": "Operate",
+  "description": " ",
+  "authors": [
+    "SFort"
+  ],
+  "contact": {
+    "sources": "https://github.com/SFort/MC-CrublingCobble"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "tf.ssf.sfort.crumblingcobble.Main"
+    ]
+  },
+  "mixins": [
+    "crumblingcobble.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric-rendering-v1": "*",
+    "fabric-object-builder-api-v1": "*",
+    "fabric-registry-sync-v0": "*",
+    "minecraft": "*"
+  }
+}
